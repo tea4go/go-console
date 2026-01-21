@@ -5,7 +5,7 @@ import (
 	"strings"
 
 	"github.com/UserExistsError/conpty"
-	"github.com/runletapp/go-console/interfaces"
+	"github.com/tea4go/go-console/interfaces"
 )
 
 var _ interfaces.Console = (*consoleWindows)(nil)

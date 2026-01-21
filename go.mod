@@ -1,4 +1,4 @@
-module github.com/runletapp/go-console
+module github.com/tea4go/go-console
 
 go 1.16
 

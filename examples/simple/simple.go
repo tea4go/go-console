@@ -7,7 +7,7 @@ import (
 	"runtime"
 	"sync"
 
-	"github.com/runletapp/go-console"
+	"github.com/tea4go/go-console"
 )
 
 func main() {
@@ -21,7 +21,7 @@ func main() {
 	var args []string
 
 	if runtime.GOOS == "windows" {
-		args = []string{"cmd.exe", "/c", "dir"}
+		args = []string{"cmd.exe", "/c", "dir c:\\"}
 	} else {
 		args = []string{"ls", "-lah", "--color"}
 	}
